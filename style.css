@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#hero{
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/245240/pexels-photo-245240.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#hero p{
+    width: 40vw;
+    font-size: 1.3rem;
+}
+#hero h1{
+    font-size: 5rem;
+    text-transform: capitalize;
+}
+.line{
+    width: 10rem;
+    background-color: red;
+    height: 0.3rem;
+}
+#hero2{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#hero2 p{
+    width: 40vw;
+    font-size: 1.3rem;
+}
+#hero2 h1{
+    font-size: 5rem;
+    text-transform: capitalize;
+}
+#hero2.line{
+    width: 10rem;
+    background-color: red;
+    height: 0.3rem;
+}
+#about{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.row h1{
+    font-size: 2rem; 
+    text-transform: capitalize;
+}
+.row i{
+    margin-top: 5rem;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+row.p{
+    padding: 1rem;
+}
+#portfolio{
+    height: 100vh;
+    display: flex;
+}
+.card{
+    width: 40rem;
+    background-color: #212529;
+
+}
+.card img{
+    width: 100%; 
+}
+.card h1{
+    color: white;
+    justify-content: center;
+}
+#contact{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#contact p{
+    width: 40vw;
+    font-size: 1.3rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 1.2rem;
+}
+.btn1{
+    background-color:#f8997f;
+    border-radius: 5rem;
+    font-size: 2rem;
+}
+@media screen and (max-width:426px) {
+    #hero{
+        height: 100%;
+    }
+    #hero h1{
+        font-size: 2rem;
+    }
+    #hero p{
+        width: 100%;
+        font-size: 1rem;
+    }
+    #hero2{
+        height: 100%;
+    }
+    #hero2 h1{
+        font-size: 2rem;
+}
+#hero2 p{
+    width: 100%;
+    font-size: 1rem;
+}
+#about{
+    height: 100%;
+}
+#portfolio{
+    height: 100%;
+}
+#contact{
+    height: 100%;
+}
+#contact p{
+    width: 100%;
+    font-size: 1rem;
+}
+
+}
